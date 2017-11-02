@@ -1,0 +1,38 @@
+{
+  "name": "hb-utils",
+  "version": "0.0.1",
+  "description": "Hanaboso custom utilities for work with objects, string, time etc.",
+  "main": "./dist/src/Metrics.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha dist/test/**/*.test.js --recursive --reporter spec",
+    "lint": "./node_modules/.bin/tslint ./src/**/*.ts ./test/**/*.ts",
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanaboso/metrics-sender"
+  },
+  "keywords": [
+    "nodejs",
+    "utilities",
+    "string",
+    "object",
+    "time"
+  ],
+  "author": "Tomas Sedlacek <mail@kedlas.cz>",
+  "contributors": [],
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "1.6.25"
+  },
+  "devDependencies": {
+    "@types/chai": "4.0.4",
+    "@types/mocha": "2.2.43",
+    "@types/node": "8.0.20",
+    "chai": "3.5.0",
+    "mocha": "3.5.2",
+    "ts-node": "3.3.0",
+    "tslint": "5.7.0",
+    "typescript": "2.5.2"
+  }
+}

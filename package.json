@@ -1,6 +1,6 @@
 {
   "name": "hb-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hanaboso custom utilities for work with objects, string, time etc.",
   "main": "./dist/lib/index.js",
   "scripts": {

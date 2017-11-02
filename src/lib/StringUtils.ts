@@ -1,7 +1,7 @@
 /**
  * Class for common operations with strings
  */
-class StringUtils {
+export class StringUtils {
 
     /**
      *
@@ -19,5 +19,3 @@ class StringUtils {
     }
 
 }
-
-export default StringUtils;

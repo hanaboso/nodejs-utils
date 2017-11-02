@@ -1,4 +1,4 @@
-import StringUtils from "../lib/StringUtils";
+import {StringUtils} from "../lib/StringUtils";
 
 import { assert } from "chai";
 import "mocha";

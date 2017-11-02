@@ -3,7 +3,7 @@ import StringUtils from "./StringUtils";
 /**
  * Class for common operations with js literal objects
  */
-class ObjectUtils {
+export class ObjectUtils {
 
     /**
      *
@@ -72,5 +72,3 @@ class ObjectUtils {
         return merged;
     }
 }
-
-export default ObjectUtils;

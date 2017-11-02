@@ -2,7 +2,7 @@
   "name": "hb-utils",
   "version": "0.0.1",
   "description": "Hanaboso custom utilities for work with objects, string, time etc.",
-  "main": "./dist/src/Metrics.js",
+  "main": "./dist/lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha dist/test/**/*.test.js --recursive --reporter spec",
     "lint": "./node_modules/.bin/tslint ./src/**/*.ts ./test/**/*.ts",

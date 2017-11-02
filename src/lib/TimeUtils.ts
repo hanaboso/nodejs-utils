@@ -3,7 +3,7 @@ import * as BigInt from "big-integer";
 /**
  * Class for time management
  */
-class TimeUtils {
+export class TimeUtils {
 
     /**
      *
@@ -42,5 +42,3 @@ class TimeUtils {
     }
 
 }
-
-export default TimeUtils;

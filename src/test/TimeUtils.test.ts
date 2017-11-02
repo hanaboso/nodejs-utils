@@ -1,4 +1,4 @@
-import TimeUtils from "../lib/TimeUtils";
+import {TimeUtils} from "../lib/TimeUtils";
 
 import { assert } from "chai";
 import "mocha";

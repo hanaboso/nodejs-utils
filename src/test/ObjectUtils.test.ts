@@ -1,4 +1,4 @@
-import ObjectUtils from "../lib/ObjectUtils";
+import {ObjectUtils} from "../lib/ObjectUtils";
 
 import { assert } from "chai";
 import "mocha";

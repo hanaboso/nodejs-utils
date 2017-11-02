@@ -1,4 +1,4 @@
-import StringUtils from "./StringUtils";
+import {StringUtils} from "./StringUtils";
 
 /**
  * Class for common operations with js literal objects
